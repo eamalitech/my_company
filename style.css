@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    line-height: 100px;
+    color: rgb(247, 241, 188);
+    background-color: gray;
+}
+.navbar{
+    display: inline-flex;
+    gap: 70px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .content img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+.contact {
+    margin: 0;
+    color: whitesmoke;
+    background-color: gray;
+}
+.contact a {
+    color: whitesmoke;   
+}
+.col-auto{
+    color: brown;
+}
+
+  
